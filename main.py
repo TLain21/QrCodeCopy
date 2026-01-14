@@ -12,7 +12,8 @@ def generate_qr_codde(text, file_name):
     img = qr.make_image()
     img.save(file_name)
 
-text = "https://linkedin.com/in/alvin-timotius-saragih"
+text = "https://google.com/"
 file_name = "qr_code.png"
 generate_qr_codde(text, file_name)
 print(f"QR code saved at {file_name}")
+
